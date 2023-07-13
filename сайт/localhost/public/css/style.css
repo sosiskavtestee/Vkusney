@@ -1,0 +1,558 @@
+* {
+    font-family: "Open Sans";
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Blue";
+    src: local("Blue"), url(/public/fonts/Blue.ttf);
+}
+
+footer {
+    margin-top: 80px;
+}
+
+h1 {
+    font-weight: 700 !important;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #1c3186;
+}
+
+.r {
+    margin-left: 70%;
+}
+
+.bl-prod {
+    margin: 10px 0 20px 15px;
+    border-radius: 200px 0 200px 0;
+    padding: 25px;
+    width: 451px;
+    height: 290.5px;
+}
+
+.bl-prod:hover {
+    background: #293568 !important;
+}
+
+.bl-prod:hover .bl-prod-1 {
+    opacity: 1;
+}
+
+.cn {
+    margin-left: 10%;
+    flex-wrap: wrap;
+    --bs-gutter-y: 1rem;
+}
+
+.bl-prod-1 {
+    opacity: 0;
+    border: 3px solid #ffffff;
+    width: 396px;
+    height: 236px;
+    border-radius: 200px 0 200px 0;
+}
+
+.bl-prod-2 {
+    margin-left: 76px;
+    margin-top: 50px;
+    width: 250px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 700 !important;
+}
+
+.ch-4 {
+    font-weight: 700;
+    margin-bottom: 1px;
+    font-size: 32px;
+}
+
+.bl-prod-2:p {
+    font-size: 16px;
+}
+
+.hlkr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    margin-left: 250px;
+    color: #676767;
+}
+
+.blk {
+    width: 500px;
+    padding-top: 300px;
+    margin-left: 200px;
+    text-align: center;
+}
+
+.sl-2 {
+    margin-top: -22px;
+    width: 100%;
+    background: url(http://d.zaix.ru/yMzR.png) no-repeat;
+    background-size: 103%;
+    background-position: -10px;
+    height: 800px;
+
+    --mask: radial-gradient(
+                134.16px at 50% calc(100% - 180px),
+                #000 99%,
+                #0000 101%
+            )
+            calc(50% - 120px) 0/240px 100%,
+        radial-gradient(
+                134.16px at 50% calc(100% + 120px),
+                #0000 99%,
+                #000 101%
+            )
+            50% calc(100% - 60px) / 240px 100% repeat-x;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+}
+
+.ch2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    color: #1c3186;
+    margin-bottom: 0px;
+}
+
+.co1 {
+    margin-top: -10px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #a3a2b4;
+}
+
+.ll {
+    font-size: 15px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #1c3186;
+}
+
+.tov {
+    display: flex;
+}
+
+.tov-inf {
+    text-align: center;
+    width: 100px;
+    color: #343434;
+    font-size: 23px;
+    font-weight: 700;
+    margin: 0 auto;
+}
+
+.tov-h3 {
+    font-size: 18px;
+    color: #1c3186;
+}
+
+.tov-bt {
+    margin: 30px 35%;
+}
+
+.opis {
+    width: 1000px;
+}
+
+.btn-primary {
+    background-color: #2640a8 !important;
+}
+
+.color {
+    color: #696985;
+}
+
+.p1 {
+    margin-bottom: -5px;
+}
+
+.cen {
+    text-align: center;
+    color: #696985;
+}
+
+.nav-link {
+    font-family: "Blue";
+    color: #2e2e2e !important;
+    font-weight: 600 !important;
+    font-size: px !important;
+    line-height: 22px !important;
+}
+
+.log {
+    position: absolute;
+    left: 50%;
+    margin-top: -70px;
+    margin-left: -173px;
+    z-index: 2 !important;
+    width: 345px;
+    height: 209px;
+
+    background: url(http://d.zaix.ru/yEII.png) no-repeat;
+    background-size: 100%;
+    filter: drop-shadow(0px 7px 4px rgba(0, 0, 0, 0.25));
+}
+
+.mr-tb {
+    margin: 5px 0;
+}
+
+.mr-tb-1 {
+    margin: 20px 0 50px 0;
+}
+
+.volna {
+    width: 90%;
+    margin-top: -80px;
+    margin-bottom: -30px;
+}
+
+.gradient {
+    display: inline-block;
+    position: relative;
+    line-height: 0;
+}
+
+.slid-razmer {
+    height: 700px;
+}
+
+.gradient:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: transparent;
+    background-image: linear-gradient(
+        180deg,
+        rgba(21, 43, 145, 1) 0%,
+        rgba(255, 255, 255, 0) 26%,
+        rgba(9, 9, 121, 0) 76%,
+        rgba(255, 255, 255, 1) 100%
+    );
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #152b91 !important;
+}
+
+.vol {
+    margin-top: -330px;
+    margin-left: 169px;
+}
+
+.voln {
+    margin-left: 169px;
+}
+
+#vl-2 {
+    margin-top: -305px;
+}
+
+#vl-3 {
+    margin-top: -305px;
+}
+
+.volnn {
+    margin-top: -7px;
+    width: 100%;
+}
+
+.gradient2 {
+    display: inline-block;
+    position: relative;
+    line-height: 0;
+}
+
+.gradient2:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: transparent;
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(255, 255, 255, 0) 47%
+    );
+}
+
+.gradient3 {
+    display: inline-block;
+    position: relative;
+    line-height: 0;
+}
+
+.gradient3:after {
+    content: "";
+    display: block;
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: transparent;
+    background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(255, 255, 255, 0) 100%
+    );
+}
+
+.slid {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.bt-1 {
+    padding: 12px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    background: #1c3186;
+    border: 2px solid #bfc9ea;
+    border-radius: 50px;
+}
+
+.bt-2 {
+    padding: 12px;
+    color: #1c3186;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    background: #ffffff;
+    border: 2px solid #bfc9ea;
+    border-radius: 50px;
+}
+
+.bl-1 {
+    font-weight: 400;
+    padding-left: 3px;
+    font-size: 32px;
+    line-height: 27px;
+    color: #ffffff;
+    width: 17px;
+    height: 35px;
+    background: #1c3186;
+    border-radius: 10px 0 0 10px;
+}
+
+.bl-2 {
+    font-weight: 400;
+    padding-left: 1px;
+    padding-top: 2px;
+    font-size: 26px;
+    line-height: 27px;
+    color: #ffffff;
+    width: 17px;
+    height: 35px;
+    background: #1c3186;
+    border-radius: 0 10px 10px 0;
+}
+
+.kr {
+    width: 30px;
+    padding-top: 3px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 27px;
+    color: #343434;
+}
+
+.cat {
+    width: 250px;
+    margin-right: 5px;
+    color: #232323;
+}
+
+.frm {
+    display: flex;
+    width: 63.36px;
+    height: 35.74px;
+    border: 1px solid #e7f3fb;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.mr-l {
+    margin-left: 20px;
+}
+
+.z-index {
+    z-index: 10 !important;
+}
+
+.pd-t {
+    padding: 5px;
+}
+
+.ppp {
+    margin-left: 600px;
+    margin-bottom: 100px;
+}
+
+.hh4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-decoration: none;
+    text-transform: capitalize;
+
+    color: #1c3186;
+}
+
+.bl {
+    background-size: 100%;
+    width: 485.34px;
+    height: 338.36px;
+    border-radius: 36% 64% 65% 35% / 64% 59% 41% 36%;
+}
+
+.fr-1 {
+    background: url(https://вкусней.рф/storage/sales/5dPni17HE07iNA44ll4HINBidIZYckJKYmQTcKDx.jpg)
+        no-repeat;
+}
+
+.fr-2 {
+    background: url(https://вкусней.рф/storage/sales/Bojcb8o3Y5hd7ty9v9XZhEjHWRJUTVKXmxiTSdM2.jpg)
+        no-repeat;
+}
+
+.blk-2 {
+    background: url(http://d.zaix.ru/z9oK.png) no-repeat;
+    background-size: 120%;
+    width: 485.34px;
+    height: 338.36px;
+    border-radius: 30% 70% 47% 53% / 48% 30% 70% 52%;
+}
+
+.blk-3 {
+    background: url(http://d.zaix.ru/z9oK.png) no-repeat;
+    background-size: 120%;
+    width: 485.34px;
+    height: 338.36px;
+    border-radius: 30% 70% 47% 53% / 48% 30% 70% 52%;
+}
+
+.cart {
+    width: 358.71px !important;
+    height: 480px;
+
+    border: 3px solid #e7f3fb;
+    box-shadow: 0px 5px 27px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 43px;
+}
+
+.cartadm {
+    width: 150px !important;
+    height: 280px;
+    border: 3px solid #3eb2ff;
+    box-shadow: 0px 5px 27px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 43px;
+}
+.name-leader {
+    width: 200px;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #1c3186;
+    font-weight: 700;
+    text-align: center;
+}
+
+.leaders {
+    text-align: center;
+    display: flex;
+    justify-content: space-between !important;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.photo-leader {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    background: pink;
+    border-radius: 50% 50%;
+}
+
+#ph1 {
+    background: url(https://вкусней.рф/img/dir1.jpg) no-repeat;
+    background-size: 100%;
+}
+
+#ph2 {
+    background: url(https://вкусней.рф/img/dir2.jpg) no-repeat;
+    background-size: 100%;
+}
+
+#ph3 {
+    background: url(https://вкусней.рф/img/dir3.jpg) no-repeat;
+    background-size: 100%;
+}
+
+#ph4 {
+    background: url(https://вкусней.рф/img/dir4.jpg) no-repeat;
+    background-size: 100%;
+}
+
+.inf-leader {
+    margin: 5px 0;
+    width: 200px;
+}
+
+.otstup {
+    margin: 5px 0 0 0;
+}
+
+.cart-leader {
+    margin: 0 20px;
+}
+
+.sl-mask {
+    --mask: radial-gradient(
+                8.94em at 50% calc(100% - 12em),
+                #000 99%,
+                #0000 101%
+            )
+            calc(50% - 8em) 0/16em 100%,
+        radial-gradient(8.94em at 50% calc(100% + 8em), #0000 99%, #000 101%)
+            50% calc(100% - 4em) / 16em 100% repeat-x;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+}
+
+.foot {
+    padding-top: 50px;
+    width: 100%;
+    z-index: 1 !important;
+    color: #ffffff !important;
+    background-color: #1c3186 !important;
+
+    --mask: radial-gradient(141.09px at 50% 192.5px, #000 99%, #0000 101%)
+            calc(50% - 140px) 0/280px 100%,
+        radial-gradient(141.09px at 50% -122.5px, #0000 99%, #000 101%) 50% 70px/280px
+            100% repeat-x;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+}
